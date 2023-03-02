@@ -96,6 +96,10 @@
         font-size: 55px;
     }
 
+    .content__subtitle {
+        padding: 0 30px;
+    }
+
     .content .container {
         padding: 0;
     }
@@ -116,7 +120,6 @@
 
 @media (max-width: 768px) {
     .content__header-title {
-        padding: 0 30px;
         font-size: 48px;
     }
 }
