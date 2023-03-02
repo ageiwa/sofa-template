@@ -17,10 +17,13 @@
     justify-content: space-between;
 }
 
-.header__logo-wrap {
-    width: 100px;
-    height: 30px;
-    background-color: green;
+.header__logo {
+    height: 40px;
+    display: block;
+}
+
+.header__logo img {
+    max-height: 100%;
 }
 
 .header__btn {
