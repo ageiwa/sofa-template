@@ -97,6 +97,10 @@
         padding: 0;
     }
 
+    .content__frame {
+        box-shadow: none;
+    }
+
     .content__cards-wrap {
         padding: 0 30px;
         flex-direction: column;
