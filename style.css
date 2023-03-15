@@ -27,7 +27,7 @@
 }
 
 .header__btn {
-    border: 1px solid #252525;
+    border: none;
     border-radius: 8px;
     padding: 9px 16px;
     font-size: 14px;
@@ -35,12 +35,13 @@
     color: #f7f7f7;
     text-decoration: none;
     background-color: #313131;
+    transition: 300ms;
     cursor: pointer;
 }
 
 .header__btn:hover {
     color: #313131;
-    background-color: #f7f7f7;
+    background-color: #55D917;
 }
 
 .content .container {
@@ -78,13 +79,13 @@
 }
 
 .content__cards-wrap .card__header-title {
-    font-size: 22px;
+    font-size: 48px;
     color: #252525;
 }
 
 .content__cards-wrap .card__text {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
     color: #595959;
 }
@@ -98,18 +99,31 @@
 .footer .container {
     padding: 0 30px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .footer .footer__wrap {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .footer .footer__wrap p {
     color: #fff;
+    font-size: 18px;
+}
+
+.footer .footer__wrap a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .footer-wrap__number-phone {
+    font-size: 30px;
+}
+
+.footer__wrap .footer-wrap__email {
     font-size: 18px;
 }
 
